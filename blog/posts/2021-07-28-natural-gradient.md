@@ -95,7 +95,7 @@ $$
   F = \mathbb{E}_{p(x \mid \theta)} \Big [ \nabla \log p(x \mid \theta) \nabla \log p(x \mid \theta)^T \Big ]
   $$
 
-- 对数似然函数的二阶导（海森矩阵）的期望取负（[证明过程](https://wiseodd.github.io/techblog/2018/03/11/fisher-information/)）
+- 对数似然函数的二阶导（海森矩阵）的期望取负（[证明过程](https://wiseodd.github.io/techdocs/2018/03/11/fisher-information/)）
 
   $$
   F = - \mathbb{E}_{p(x \mid \theta)} \left [ \frac{\partial^2}{\partial_{\theta} \partial_{\theta^T}} \log p(x \mid \theta) \right ]
@@ -240,7 +240,7 @@ $$
 - [[知乎] 如何理解 Natural Gradient Descent？](https://www.zhihu.com/question/266846405)
 - [[知乎] 多角度理解自然梯度](https://zhuanlan.zhihu.com/p/82934100)
 - [[知乎] 什么是一般梯度、相对梯度、自然梯度和随机梯度？](https://www.zhihu.com/question/21923317/answer/205008255)
-- [[博客] Natural Gradient Descent](https://wiseodd.github.io/techblog/2018/03/14/natural-gradient/)
+- [[博客] Natural Gradient Descent](https://wiseodd.github.io/techdocs/2018/03/14/natural-gradient/)
 - [[博客] 从勾股定理到黎曼度量](https://kexue.fm/archives/3969)
 - [[课件] Differential Geometry.](https://maths-people.anu.edu.au/~andrews/DG/) *Ben Andrews.* Australian National University.
 - [[课件] Differential Geometry.](http://people.maths.ox.ac.uk/~joyce/Nairobi2019/Hitchin-DifferentiableManifolds.pdf) *Nigel Hitchin.* Oxford University.

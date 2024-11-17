@@ -24,7 +24,7 @@ tags:
 
 ## Libraries and open source
 
-- **spaCy** ([website](https://spacy.io), [blog](https://explosion.ai/blog/))	[Python；新兴的开放源码库并自带[炫酷的用法示例](https://spacy.io/usage/spacy-101)、API 文档和[演示应用程序](https://spacy.io/docs/usage/showcase)]
+- **spaCy** ([website](https://spacy.io), [docs](https://explosion.ai/docs/))	[Python；新兴的开放源码库并自带[炫酷的用法示例](https://spacy.io/usage/spacy-101)、API 文档和[演示应用程序](https://spacy.io/docs/usage/showcase)]
 
 - **Natural Language Toolkit (NLTK)** ([website](http://www.nltk.org/), [book](http://www.nltk.org/book/))	[Python；NLP 实用编程介绍，主要用于教学目的]
 
@@ -34,19 +34,19 @@ tags:
 
 - **fastText** ([website](https://fasttext.cc/))	[C++；高效的文本分类（text classification）和表示学习（representation learning）工具]
 
-## Active blogs
+## Active docss
 
-- [language processing blog](https://nlpers.blogspot.com/natural)	（Hal Daumé III）
+- [language processing docs](https://nlpers.docsspot.com/natural)	（Hal Daumé III）
 
 - [Language Log](http://languagelog.ldc.upenn.edu/nll/)	（Mark Liberman）
 
-- [Google Research blog](https://research.googleblog.com/)
+- [Google Research docs](https://research.googledocs.com/)
 
-- [Explosion AI blog](https://explosion.ai/blog/)
+- [Explosion AI docs](https://explosion.ai/docs/)
 
 - [Hugging Face](https://medium.com/huggingface)
 
-- [Sebastian Ruder’s blog](http://ruder.io/#open)
+- [Sebastian Ruder’s docs](http://ruder.io/#open)
 
 ## Books
 

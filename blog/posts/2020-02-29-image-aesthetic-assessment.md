@@ -332,7 +332,7 @@ Aesthetics.** *Subhabrata Bhattacharya, et al.* ACM MM 2010. [[Paper]](http://ww
 
 #### 评分分布
 
-- **NIMA: Neural Image Assessment.** *Hossein Talebi and Peyman Milanfar.* TIP 2018. [[arxiv]](https://arxiv.org/pdf/1709.05424.pdf) [[Blog]](https://ai.googleblog.com/2017/12/introducing-nima-neural-image-assessment.html) [[Code (Reproduction)]](https://github.com/titu1994/neural-image-assessment)
+- **NIMA: Neural Image Assessment.** *Hossein Talebi and Peyman Milanfar.* TIP 2018. [[arxiv]](https://arxiv.org/pdf/1709.05424.pdf) [[docs]](https://ai.googledocs.com/2017/12/introducing-nima-neural-image-assessment.html) [[Code (Reproduction)]](https://github.com/titu1994/neural-image-assessment)
 
 
 - **Predicting Aesthetic Score Distribution through Cumulative Jensen-Shannon Divergence.** *Xin Jin, et al.* AAAI 2018. [[Paper]](http://jinxin.me/downloads/papers/028-AAAI2018/ScoreDestribution.pdf) [[Code]](https://github.com/BestiVictory/CJS-CNN)

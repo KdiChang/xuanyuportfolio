@@ -1,7 +1,7 @@
 # VuePress files
-blog/.vuepress/.temp/
-blog/.vuepress/.cache/
-blog/.vuepress/dist/
+docs/.vuepress/.temp/
+docs/.vuepress/.cache/
+docs/.vuepress/dist/
 
 # Dist files
 dist/

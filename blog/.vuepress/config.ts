@@ -44,8 +44,8 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   theme: gungnirTheme({
-    repo: "Renovamen/blog.zxh.io",
-    docsDir: "blog",
+    repo: "Renovamen/docs.zxh.io",
+    docsDir: "docs",
     docsBranch: "master",
 
     hitokoto: "https://v1.hitokoto.cn?c=i", // enable hitokoto (一言) or not?
@@ -113,11 +113,11 @@ export default defineUserConfig({
       git: isProd,
       katex: true,
       giscus: {
-        repo: "This-is-an-Apple/blog-giscus-comments",
+        repo: "This-is-an-Apple/docs-giscus-comments",
         repoId: "R_kgDOGl2SjQ",
         category: "Announcements",
         categoryId: "DIC_kwDOGl2Sjc4CAcxK",
-        darkTheme: "https://blog.zxh.io/styles/giscus-dark.css"
+        darkTheme: "https://docs.zxh.io/styles/giscus-dark.css"
       },
       mdPlus: {
         all: true
@@ -125,7 +125,7 @@ export default defineUserConfig({
       ga: "G-HCQSX53XFG",
       ba: "75381d210789d3eaf855fa16246860cc",
       rss: {
-        siteURL: "https://blog.zxh.io",
+        siteURL: "https://docs.zxh.io",
         copyright: "Renovamen 2018-2022"
       }
     },

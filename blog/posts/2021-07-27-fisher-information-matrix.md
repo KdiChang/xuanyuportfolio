@@ -62,7 +62,7 @@ $$
 \mathbb{E}_{p(x \mid \theta)} [ s(\theta) ]^2 = 0
 $$
 
-证明过程可以参考博客 [Fisher Information Matrix](https://wiseodd.github.io/techblog/2018/03/11/fisher-information/)。
+证明过程可以参考博客 [Fisher Information Matrix](https://wiseodd.github.io/techdocs/2018/03/11/fisher-information/)。
 
 所以有：
 
@@ -99,7 +99,7 @@ $$
 :::
 
 ::: tip 证明
-参考博客 [Fisher Information Matrix](https://wiseodd.github.io/techblog/2018/03/11/fisher-information/)
+参考博客 [Fisher Information Matrix](https://wiseodd.github.io/techdocs/2018/03/11/fisher-information/)
 :::
 
 也就是说，$F$ 反映了对数似然函数在参数真实值处的曲率。对于一个对数似然函数，它的曲率越小，说明它越平而宽，从而说明我们对于参数的估计越不确定（因为平而宽的对数似然函数意味着，观测值出现的概率并不比其他值出现的概率大多少）；曲率越大，说明它越高而窄，则说明对于参数的估计越确定。
@@ -109,5 +109,5 @@ $$
 
 ## 参考
 
-- [[博客] Fisher Information Matrix](https://wiseodd.github.io/techblog/2018/03/11/fisher-information/)
+- [[博客] Fisher Information Matrix](https://wiseodd.github.io/techdocs/2018/03/11/fisher-information/)
 - [[知乎] 费雪信息 (Fisher information) 的直观意义是什么](https://www.zhihu.com/question/26561604)

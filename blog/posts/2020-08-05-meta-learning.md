@@ -17,7 +17,7 @@ continual learning 方向 19 年之后的[几篇论文](https://note.zxh.io/pape
 
 这是一篇讲 meta learning 讲得非常清楚的文章，本文很大程度上~~抄~~参考了这篇文章：
 
-**Learning to Learn Fast** (Lilian Weng) [[英文原版]](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html) [[中文翻译]](https://wei-tianhao.github.io/blog/2019/09/17/meta-learning.html)
+**Learning to Learn Fast** (Lilian Weng) [[英文原版]](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html) [[中文翻译]](https://wei-tianhao.github.io/docs/2019/09/17/meta-learning.html)
 
 这作者还写过一篇在 reinforcement learning 任务里面用 meta learning 的文章：
 
@@ -179,7 +179,7 @@ $$
 
 ### Transfer Learning?
 
-MAML 的思想很像 transfer learning，即在大数据集上预训练一个模型，学习一个初始化参数，然后拿到小数据集任务上去 fine-tune。Chelsea Finn 在[一篇博客](https://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/)中也阐述了 MAML 跟 transfer learning 的区别和联系。当某个任务的数据量过小时，把预训练模型直接拿去 fine-tune 会过拟合。因此 MAML 的核心目标是，学习一个在小数据集上更容易被 fine-tune 的初始化参数。
+MAML 的思想很像 transfer learning，即在大数据集上预训练一个模型，学习一个初始化参数，然后拿到小数据集任务上去 fine-tune。Chelsea Finn 在[一篇博客](https://bair.berkeley.edu/docs/2017/07/18/learning-to-learn/)中也阐述了 MAML 跟 transfer learning 的区别和联系。当某个任务的数据量过小时，把预训练模型直接拿去 fine-tune 会过拟合。因此 MAML 的核心目标是，学习一个在小数据集上更容易被 fine-tune 的初始化参数。
 
 下图是 MAML 和一般的预训练模型的参数更新方式对比：
 
@@ -260,7 +260,7 @@ Reptile 论文里还对 Reptile 和 MAML 的原理写了一大段分析。推了
 
 ## 参考
 
-- **Learning to Learn Fast.** Lilian Weng. [[英文原版]](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html) [[中文翻译]](https://wei-tianhao.github.io/blog/2019/09/17/meta-learning.html)
+- **Learning to Learn Fast.** Lilian Weng. [[英文原版]](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html) [[中文翻译]](https://wei-tianhao.github.io/docs/2019/09/17/meta-learning.html)
 
 - **Meta Learning.** Hung-yi Lee (李宏毅). [Slides: [Part 1](https://speech.ee.ntu.edu.tw/~tlkagk/courses/ML_2019/Lecture/Meta1%20(v6).pdf), [Part 2](https://speech.ee.ntu.edu.tw/~tlkagk/courses/ML_2019/Lecture/Meta2%20(v4).pdf)] [[Video]](https://www.youtube.com/watch?v=EkAqYbpCYAc&list=PLJV_el3uVTsOK_ZK5L0Iv_EQoL1JefRL4&index=33&t=0s)
 
@@ -272,7 +272,7 @@ Reptile 论文里还对 Reptile 和 MAML 的原理写了一大段分析。推了
 
 - [Generalizing from Few Examples with Meta-Learning.](https://www.dropbox.com/s/sm68skkkbxbob0i/metalearning.pdf?dl=0) Hugo Larochelle.
 
-- [Learning to Learn.](https://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/) Chelsea Finn.
+- [Learning to Learn.](https://bair.berkeley.edu/docs/2017/07/18/learning-to-learn/) Chelsea Finn.
 
 - [First-order Meta-Learned Initialization for Faster Adaptation in Deep Reinforcement Learning.](https://www.andrew.cmu.edu/user/abhijatb/assets/Deep_RL_project.pdf) Abhijat Biswas and Shubham Agrawal.
 

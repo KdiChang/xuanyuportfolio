@@ -140,7 +140,7 @@ $$
 f(\theta) = f(\theta_A^\text{*}) + \underbrace{\Bigg ( \frac{\partial f(\theta)}{\partial \theta} \Bigg |_{\theta = \theta_A^\text{*}}  \Bigg )}_{\text{雅克比矩阵}} (\theta - \theta_A^\text{*}) + \frac{1}{2} (\theta - \theta_A^\text{*})^\top \underbrace{\Bigg ( \frac{\partial^2 f(\theta)}{\partial^2 \theta} \Bigg |_{\theta = \theta_A^\text{*}}  \Bigg )}_{\text{海森矩阵}} (\theta - \theta_A^\text{*}) + o(\theta_A^\text{*}) \\[5px]
 $$
 
-因为 $\theta_A^\text{*}$ 使得 $f(\theta)$ 有极大值（[这里](https://www.cnblogs.com/hapjin/p/8834794.html)似乎证明了一定有这个极大值），所以 $f(\theta)$ 在 $\theta = \theta_A^\text{*}$ 处的一阶导为 0，二阶导为负（海森矩阵负定），并且我们忽略掉三阶及以上的项，那么 $f(\theta)$ 可以近似为：
+因为 $\theta_A^\text{*}$ 使得 $f(\theta)$ 有极大值（[这里](https://www.cndocss.com/hapjin/p/8834794.html)似乎证明了一定有这个极大值），所以 $f(\theta)$ 在 $\theta = \theta_A^\text{*}$ 处的一阶导为 0，二阶导为负（海森矩阵负定），并且我们忽略掉三阶及以上的项，那么 $f(\theta)$ 可以近似为：
 
 $$
 f(\theta) = \log \frac{1}{\sqrt{2 \pi} \sigma} - \frac{(\theta - \mu)^2}{2 \sigma^2} \approx f(\theta_A^\text{*}) + \frac{1}{2} (\theta - \theta_A^\text{*})^2 f''(\theta_A^\text{*})
@@ -177,7 +177,7 @@ $f(\theta_A^\text{*})$ 是个常数所以可以省掉。相当于最大化 $p(\t
 
 ### Fisher 信息矩阵
 
-首先，一个结论是 Fisher 信息矩阵等于海森矩阵的期望取负（[这里](https://wiseodd.github.io/techblog/2018/03/11/fisher-information/)是证明过程）：
+首先，一个结论是 Fisher 信息矩阵等于海森矩阵的期望取负（[这里](https://wiseodd.github.io/techdocs/2018/03/11/fisher-information/)是证明过程）：
 
 $$
 F_{ij} = - \mathbb{E}[f''(\theta_A^\text{*})] = - \mathbb{E}_{p(\theta \mid D_A)} \left [ \frac{\partial^2 \log p(\theta \mid D_A)}{\partial \theta_i \theta_j} \Bigg |_{\theta = \theta_A^\text{*}} \right ]
@@ -462,8 +462,8 @@ $$
 
 - [终身持续学习-可塑权重巩固（Elastic Weight Consolidation）](https://zhuanlan.zhihu.com/p/86365066)
 
-- [Fisher Information Matrix](https://wiseodd.github.io/techblog/2018/03/11/fisher-information/)
+- [Fisher Information Matrix](https://wiseodd.github.io/techdocs/2018/03/11/fisher-information/)
 
 - [费雪信息 (Fisher information) 的直观意义是什么？](https://www.zhihu.com/question/26561604)
 
-- [Fisher Information 学习笔记](https://blog.csdn.net/lanran2/article/details/77995062)
+- [Fisher Information 学习笔记](https://docs.csdn.net/lanran2/article/details/77995062)

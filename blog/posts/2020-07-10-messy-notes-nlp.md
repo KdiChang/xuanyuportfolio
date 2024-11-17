@@ -276,7 +276,7 @@ $$
 A = U \Sigma V^T
 $$
 
-其中，$A \in R^{m \times n}$；$U \in R^{m \times m}$，各个向量相互正交，被称为左奇异矩阵；$\Sigma \in R^{m \times n}$，仅在对角线上有值，被称为奇异值；$V \in R^{n \times n}$，各个向量也相互正交，被称为右奇异矩阵。具体分解原理可以参考[这里](https://www.cnblogs.com/endlesscoding/p/10033527.html)。
+其中，$A \in R^{m \times n}$；$U \in R^{m \times m}$，各个向量相互正交，被称为左奇异矩阵；$\Sigma \in R^{m \times n}$，仅在对角线上有值，被称为奇异值；$V \in R^{n \times n}$，各个向量也相互正交，被称为右奇异矩阵。具体分解原理可以参考[这里](https://www.cndocss.com/endlesscoding/p/10033527.html)。
 
 奇异值是从大到小排列的，可以认为奇异值代表了特征的权重。通常前 10% 甚至 1% 的奇异值的和就占了所有奇异值和的 99% 以上，所以一般会选择用 $U$ 的前 $k$ 维来代表词向量矩阵，最终词向量矩阵大小为 $m \times k$，$m$ 为词典大小，$k$ 为词向量维度。
 
@@ -325,7 +325,7 @@ NNLM（Neural Network Language Model，神经网络语言模型）即用神经�
 
 **Distributed Representations of Words and Phrases and their Compositionality.** *Tomas Mikolov, et al.* NIPS 2013. [[Paper]](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) 
 
-具体原理和数学推导可以参考这里：[word2vec 中的数学原理详解](https://blog.csdn.net/itplus/article/details/37969519)
+具体原理和数学推导可以参考这里：[word2vec 中的数学原理详解](https://docs.csdn.net/itplus/article/details/37969519)
 
 
 word2vec 的本质依然是语言模型，但是它的目标并不是语言模型本身，而是词向量。所以它所采取的一系列优化都是为了更快更好的得到词向量。
@@ -415,7 +415,7 @@ $$
 &nbsp;
 
 
-然后对条件概率函数求最大似然即可，具体公式上面引用的那篇[博客](https://blog.csdn.net/itplus/article/details/37969979)里有。
+然后对条件概率函数求最大似然即可，具体公式上面引用的那篇[博客](https://docs.csdn.net/itplus/article/details/37969979)里有。
 
 - 时间复杂度从 $O(V)$ 降到 $O(\log_2V)$
 
@@ -523,7 +523,7 @@ $$
 J = \sum_{i,j}^N f(X_{ij}) (w_i^{\top} \tilde{w}_j + b_i + b_j - \log X_{ij})
 $$
 
-这两篇博客推导了目标函数是怎么来的：[理解 GloVe 模型](https://blog.csdn.net/coderTC/article/details/73864097)、[GloVe 详解](http://www.fanyeong.com/2018/02/19/glove-in-detail/)。
+这两篇博客推导了目标函数是怎么来的：[理解 GloVe 模型](https://docs.csdn.net/coderTC/article/details/73864097)、[GloVe 详解](http://www.fanyeong.com/2018/02/19/glove-in-detail/)。
 
 可以认为它的 label 是 $\log X_{ij}$。$w$ 和 $\tilde{w}$ 是两个不同的词向量，因为共现矩阵 $X$ 是对称的，所以理论上 $w$ 和 $\tilde{w}$ 也应该是对称的，但它们初始化的值不一样，所以最终的结果也不一样。为了提高鲁棒性，会用 $w + \tilde{w}$ 作为最终的词向量。
 
@@ -604,7 +604,7 @@ GloVe 的特点：
 
 - [NLP 中的词向量对比](https://zhuanlan.zhihu.com/p/56382372)
 
-- [词向量（one-hot/SVD/NNLM/Word2Vec/GloVe）](https://www.cnblogs.com/sandwichnlp/p/11596848.html)
+- [词向量（one-hot/SVD/NNLM/Word2Vec/GloVe）](https://www.cndocss.com/sandwichnlp/p/11596848.html)
 
 - [【语言模型系列】原理篇一：从 one-hot 到 Word2vec](https://www.6aiq.com/article/1586815086168)
 
@@ -753,6 +753,6 @@ Inception V2 的论文，重要贡献之一是提出了 Batch Normalization（BN
 
 ### 参考
 
-- [深入理解 Batch Normalization 批标准化](https://www.cnblogs.com/guoyaohua/p/8724433.html)
+- [深入理解 Batch Normalization 批标准化](https://www.cndocss.com/guoyaohua/p/8724433.html)
 
 - [Understanding the backward pass through Batch Normalization Layer](https://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html)

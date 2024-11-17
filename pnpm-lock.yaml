@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  renovamen-blog:
+  renovamen-docs:
     specifier: 'file:'
     version: 'file:'
 
@@ -5412,7 +5412,7 @@ packages:
       '@vue/shared': 3.2.37
     dev: true
 
-  /vuepress-plugin-blog2@2.0.0-beta.91:
+  /vuepress-plugin-docs2@2.0.0-beta.91:
     resolution: {integrity: sha512-zSoSGnBvirBkv0tLKqq4lUHbEVG7AI6Qec9f2cusMSNEb6adlZ5ZN+sd24acI/i3yFpeIhg53EkQmevVMWeTAA==}
     dependencies:
       '@vuepress/client': 2.0.0-beta.49
@@ -5517,7 +5517,7 @@ packages:
       sass-loader: 13.0.2
       vue: 3.2.37
       vue-router: 4.1.3(vue@3.2.37)
-      vuepress-plugin-blog2: 2.0.0-beta.91
+      vuepress-plugin-docs2: 2.0.0-beta.91
       vuepress-plugin-chart: 2.0.0-alpha.26
       vuepress-plugin-code-enhance: 2.0.0-alpha.26
       vuepress-plugin-giscus: 2.0.0-alpha.26
@@ -5775,7 +5775,7 @@ packages:
 
   'file:':
     resolution: {directory: '', type: directory}
-    name: renovamen-blog
+    name: renovamen-docs
     engines: {node: '>=14', pnpm: '>=7'}
     dependencies:
       vite: 5.4.11
