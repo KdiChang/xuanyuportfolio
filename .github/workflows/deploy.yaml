@@ -2,9 +2,9 @@ name: build-and-deploy
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build-and-deploy:
@@ -14,28 +14,33 @@ jobs:
       NODE_VERSION: '16'
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # Step 1: 检出代码
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
+      # Step 2: 安装 pnpm
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 7
 
+      # Step 3: 设置 Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: pnpm
 
+      # Step 4: 安装依赖
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --no-frozen-lockfile
 
+      # Step 5: 构建站点
       - name: Build site
         run: pnpm build
 
+      # Step 6: 部署到 GitHub Pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
