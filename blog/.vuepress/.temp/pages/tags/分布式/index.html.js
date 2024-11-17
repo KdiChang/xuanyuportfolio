@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-6b6ec9b1\",\"path\":\"/tags/%E5%88%86%E5%B8%83%E5%BC%8F/\",\"title\":\"分布式 | Tags\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"分布式 | Tags\",\"layout\":\"Tags\",\"blog\":{\"type\":\"category\",\"name\":\"分布式\",\"key\":\"tag\"}},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":null}")
