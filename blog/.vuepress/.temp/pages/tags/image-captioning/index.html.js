@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-c5a62878\",\"path\":\"/tags/image-captioning/\",\"title\":\"Image Captioning | Tags\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Image Captioning | Tags\",\"layout\":\"Tags\",\"blog\":{\"type\":\"category\",\"name\":\"Image Captioning\",\"key\":\"tag\"}},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":null}")

@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-ee5373f6\",\"path\":\"/tags/%E4%B8%BB%E6%9C%BA/\",\"title\":\"主机 | Tags\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"主机 | Tags\",\"layout\":\"Tags\",\"blog\":{\"type\":\"category\",\"name\":\"主机\",\"key\":\"tag\"}},\"excerpt\":\"\",\"headers\":[],\"git\":{},\"filePathRelative\":null}")
