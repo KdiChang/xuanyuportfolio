@@ -14,33 +14,28 @@ jobs:
       NODE_VERSION: '16'
 
     steps:
-      # Checkout repository
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      # Install pnpm
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 7
 
-      # Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: pnpm
 
-      # Install dependencies
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      # Build VuePress site
       - name: Build site
         run: pnpm build
 
-      # Deploy to GitHub Pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
